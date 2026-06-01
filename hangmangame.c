@@ -130,7 +130,7 @@ int main() {
     const char *secretword = wordlist[randomindex];
     int wordlength = strlen(secretword);
     
-    char hiddenword[100];
+    char hiddenword[200];
     for (int i = 0; i < wordlength; i++) {
         hiddenword[i] = (secretword[i] == ' ') ? ' ' : '_';
     }
